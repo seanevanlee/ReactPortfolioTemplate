@@ -2,8 +2,9 @@ import self from "../img/self.png";
 import mock1 from "../img/mock1.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
-import mock4 from "../img/mock4.png";
-import mock5 from "../img/mock5.png";
+// Saving mocks 4 and 5 for future projects to add later
+// import mock4 from "../img/mock4.png";
+// import mock5 from "../img/mock5.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -59,11 +60,16 @@ export const info = {
       icon: "fa fa-linkedin",
       label: "linkedin",
     },
+    {
+      link: "https://drive.google.com/file/d/1p5OF5VrmMGiGgGSxPtxc-ulAOVo09FTQ/view?usp=sharing",
+      icon: "fa fa-file",
+      label: "resume",
+    },
 
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hello! I'm Sean. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+  bio: "Hello! I'm Sean. I'm a full-stack developer. I finished a coding bootcamp to build upon my experiences at Amazon, a venture fund as well as a virtual reality startup. I also have two bachelor degrees from Boston University. Happy to chat!",
   skills: {
     proficientWith: [
       "javascript",
@@ -72,27 +78,30 @@ export const info = {
       "github",
       "bootstrap",
       "html5",
-      "css3",
+      "css",
       "figma",
+      "mongodb",
+      "ejs",
+      "API",
     ],
-    exposedTo: ["nodejs", "python", "adobe illustrator"],
+    exposedTo: ["nodejs", "python", "midjourney"],
   },
   hobbies: [
     {
-      label: "reading",
-      emoji: "📖",
+      label: "tacos",
+      emoji: "🌮",
     },
     {
-      label: "theater",
-      emoji: "🎭",
+      label: "traveling",
+      emoji: "🛫",
     },
     {
       label: "movies",
       emoji: "🎥",
     },
     {
-      label: "cooking",
-      emoji: "🌶",
+      label: "surfing",
+      emoji: "🏄‍♂️",
     },
     // Same as above, change the emojis to match / relate to your hobbies or interests.
     // You can also remove the emojis if you'd like, I just think they look cute :P
@@ -100,34 +109,36 @@ export const info = {
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
-      title: "Project 1",
-      live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+      title: "ATM Works",
+      live: "https://atmworks.fly.dev/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: "https://github.com/seanevanlee/project-3-group-GA-ATM", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
     },
     {
-      title: "Project 2",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
+      title: "DOTA2 New Hero Suggestion",
+      live: "https://newhero.cyclic.app/login",
+      source: "https://github.com/seanevanlee/project-4",
       image: mock2,
     },
     {
-      title: "Project 3",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
+      title: "DOTA2 Hero Guide",
+      live: "https://heroguide.cyclic.app/",
+      source: "https://github.com/seanevanlee/project-2-dota",
       image: mock3,
     },
-    {
-      title: "Project 4",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock4,
-    },
-    {
-      title: "Project 5",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock5,
-    },
+
+    // Saving the template below for future projects.
+    // {
+    //   title: "Project 4",
+    //   live: "https://paytonpierce.dev",
+    //   source: "https://github.com/paytonjewell",
+    //   image: mock4,
+    // },
+    // {
+    //   title: "Project 5",
+    //   live: "https://paytonpierce.dev",
+    //   source: "https://github.com/paytonjewell",
+    //   image: mock5,
+    // },
   ],
 };
